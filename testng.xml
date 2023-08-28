@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="simple.DemoTestng"/>
+      <class name="simple.AnotationTestng"/>
+      <class name="TestNG.priority"/>
+      <class name="TestNG.timout"/>
+      <class name="TestNG.tabHandle"/>
+      <class name="TestNG.invocation"/>
+      <class name="TestNG.timeoutException"/>
+      <class name="DataDriven.demohardAsset"/>
+      <class name="TestNG.handleWindow"/>
+      <class name="adactinHotel.Adactin"/>
+      <class name="TestNG.test"/>
+      <class name="simple.DemoLaunch"/>
+      <class name="DataDriven.demoSoftAssert"/>
+      <class name="DataDriven.DemoDataProvider"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
